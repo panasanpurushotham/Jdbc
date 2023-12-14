@@ -1,0 +1,32 @@
+
+/* h1{
+    color: blue;
+    background-color: aqua;
+}
+#para1, #para2{
+    text-align: justify;
+    color: burlywood;
+    background-color: cornflowerblue;
+}
+.cls1{
+    text-align: center;
+}
+
+*{
+    background-color:blanchedalmond;
+} */
+/* body{
+    background-image: url(/Sample-SOP-for-MS-in-CS.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: 100%;
+    background-attachment: fixed;
+
+    border-style:groove;
+    border-width: 20px;
+    border-color:cornflowerblue;
+    border-radius: 50px 50px 50px 50px;
+} */
+#tb2{
+    border-collapse:collapse;
+}

@@ -1,0 +1,61 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<style>
+    div {
+        text-align: center;
+        background-color: cornflowerblue;
+    }
+</style>
+
+<body>
+    <form action="/login.html" method="get">
+        <div>
+            <h1>Registration Details</h1>
+            <table border="2" align="center">
+                <tr>
+                    <th><label>First Name</label></th>
+                    <th><input type="text" id="fname"></th>
+                </tr>
+                <tr>
+                    <th><label>Last Name</label></th>
+                    <th><input type="text" id="lname"></th>
+                </tr>
+                <tr>
+                    <th><label>Email</label></th>
+                    <th><input type="email" id="email"></th>
+                </tr>
+                <tr>
+                    <th><label>Mobile</label></th>
+                    <th><input type="number" id="mob"></th>
+                </tr>
+            </table>
+
+            <fieldset>
+                <legend>Marital status</legend>
+                <label>Married</label>
+                <input type="radio" id="married" name="marriage"><br>
+                <label>Unmarried</label>
+                <input type="radio" id="unmarried" name="marriage"><br>
+
+            </fieldset><br>
+            <fieldset>
+                <legend>Gender</legend>
+                <label>Male</label>
+                <input type="radio" value="Male" name="gender">
+                <label>Female</label>
+                <input type="radio" value="Female" name="gender">
+            </fieldset><br>
+
+            <label>I accept all the terms and conditions</label>
+            <input type="checkbox" id="accept"><br>
+            <input type="submit" id="Submit Details"><br>
+
+
+
+        </div>
+    </form>
+</body>
